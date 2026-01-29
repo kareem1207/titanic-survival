@@ -1,0 +1,3 @@
+conda activate "D:\Mgit college\college projects\PR\pr"
+
+conda deactivate

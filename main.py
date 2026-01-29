@@ -35,7 +35,7 @@ async def predict(
     features = np.array([[pclass, age, sibsp, parch, fare, gender_male, embarked_q, embarked_s]])
     
     print(f"Features: {features}")
-    
+        
     # Make prediction
     prediction_value = model.predict(features)[0]
     probability = model.predict_proba(features)[0]
